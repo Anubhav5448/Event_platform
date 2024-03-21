@@ -104,6 +104,7 @@ export type Event = {
   };
 };
 
+export const convertFileToUrl = (file: File) => URL.createObjectURL(file)
 // ====== CATEGORY PARAMS
 export type CreateCategoryParams = {
   categoryName: string;
